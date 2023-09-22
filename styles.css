@@ -1,0 +1,58 @@
+body {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    font-family: 'Roboto', sans-serif;
+    background: white;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+i {
+    font-size: 32px;
+}
+
+/* Header Start */
+.post-header {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header-left{
+    display: inline-flex;
+    align-items: center;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+.name {
+    line-height: 0;
+    font-size: 15px;
+}
+/* Header End */
+
+/* Img Start */
+
+.post img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+/* Img End */
+
+/* Body Start */
+.post-body {
+    padding: 20px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+}
+/* Body End */
